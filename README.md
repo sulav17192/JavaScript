@@ -1,2 +1,2 @@
 # JavaScript
-Learning Js from from begining.
+Learning Js from begining.
