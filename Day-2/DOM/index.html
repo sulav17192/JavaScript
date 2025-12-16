@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Hello World</p>
+
+    <button onclick="hey()">Click me</button>
+
+    <input type="text" onfocus="focusMessage()">
+
+    <p onmouseover="hoverIn()">Hover over me</p>
+
+</body>
+<script>
+    document.getElementById("demo").innerHTML="Hi World";
+    function hey(){
+        alert("Hey User");
+    }
+
+    function focusMessage() {
+  console.log("Input focused");
+}
+
+
+function hoverIn() {
+  console.log("Mouse is over the text");
+}
+</script>
+</html>
